@@ -999,10 +999,6 @@ button:active{
   transition-duration: 0.5s;
 }
 
-.story:hover{
-  transform:scale(1.2);
-}
-
 .overlay{
   position: absolute;
   height: 350px;
@@ -1041,6 +1037,26 @@ button:active{
 .overlay:hover{
   opacity: 0.4;
 }
+
+.overlay3:hover{
+  opacity:0.4
+}
+
+.overlay3{
+  position: absolute;
+  height: 350px;
+  width: 350px;
+  top: 800px;
+  bottom: ;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #000;
+  margin: 25px 0px;
+  transform:translateX(15px);
+}
+
 
 
 .design{
