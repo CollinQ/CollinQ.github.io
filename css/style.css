@@ -1076,6 +1076,26 @@ button:active{
   transform:translateX(15px);
 }
 
+
+.overlay5:hover{
+  opacity:0.4;
+}
+
+.overlay5{
+  position: absolute;
+  height: 350px;
+  width: 350px;
+  top: 1600px;
+  bottom: ;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #000;
+  margin: 25px 0px;
+  transform:translateX(15px);
+}
+
 .design{
   height: 350px;
   width: 350px;
